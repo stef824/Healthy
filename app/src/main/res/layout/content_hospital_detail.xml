@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/padding_huge"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.satan.healthy.activity.HospitalDetailActivity"
+    tools:showIn="@layout/activity_hospital_detail">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_tiny"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_tiny">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_tiny"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="@dimen/image_size"
+                    android:layout_height="@dimen/image_size"
+                    android:src="@drawable/ic_hospital_detail_msg"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/margin_tiny"
+                    android:gravity="center_vertical"
+                    android:text="医院简介"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/text_size_large"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_hospital_detail_msg"
+                android:layout_width="322dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginBottom="@dimen/margin_tiny"
+                android:background="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                android:padding="@dimen/padding_normal"
+                android:textSize="@dimen/text_size_normal"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_call"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/margin_tiny">
+
+            <ImageView
+                android:layout_width="@dimen/image_size"
+                android:layout_height="@dimen/image_size"
+                android:src="@drawable/ic_hospital_detail_tel"/>
+
+            <TextView
+                android:id="@+id/tv_hospital_detail_tel"
+                style="@style/text_view_style_one"
+                android:text="联系电话："
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_tiny"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="31dp"
+                android:layout_height="@dimen/image_size"
+                android:src="@drawable/ic_hospital_detail_address"/>
+
+            <TextView
+                android:id="@+id/tv_hospital_detail_address"
+                style="@style/text_view_style_one"
+                android:text="医院地址："/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_start_navi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_tiny"
+            android:background="?android:attr/selectableItemBackground"
+            android:clickable="true">
+
+            <ImageView
+                android:layout_width="@dimen/image_size"
+                android:layout_height="@dimen/image_size"
+                android:src="@drawable/ic_hospital_detail_navi"/>
+
+            <TextView
+                style="@style/text_view_style_one"
+                android:text="查询路线"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

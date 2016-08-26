@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.satan.healthy.activity.NewsDetailActivity">
+    <item
+        android:id="@+id/action_share_news"
+        android:orderInCategory="100"
+        android:title="@string/action_share"
+        android:icon="@drawable/ic_share"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_collect_news"
+        android:orderInCategory="90"
+        android:title="Collect"
+        android:icon="@drawable/ic_star_white"
+        app:showAsAction="ifRoom"/>
+</menu>

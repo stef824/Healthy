@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.satan.healthy.activity.RecipeDetailActivity"
+    tools:showIn="@layout/activity_recipe_detail">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_tiny"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_tiny">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_tiny"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/image_size"
+                android:layout_height="@dimen/image_size"
+                android:src="@drawable/ic_recipe_key_word"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/margin_tiny"
+                android:gravity="center_vertical"
+                android:text="关键字"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/text_size_large"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_recipe_detail_keywords"
+            android:layout_width="322dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginBottom="@dimen/margin_tiny"
+            android:background="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:padding="@dimen/padding_normal"
+            android:textSize="@dimen/text_size_normal"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/margin_tiny">
+
+            <ImageView
+                android:layout_width="@dimen/image_size"
+                android:layout_height="@dimen/image_size"
+                android:src="@drawable/ic_recipe_food"/>
+
+            <TextView
+                style="@style/text_view_style_one"
+                android:text="食材"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_recipe_detail_food"
+            android:layout_width="322dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginBottom="@dimen/margin_tiny"
+            android:background="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:padding="@dimen/padding_normal"
+            android:textSize="@dimen/text_size_normal"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_tiny"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="31dp"
+                android:layout_height="@dimen/image_size"
+                android:src="@drawable/ic_recipe_method"/>
+
+            <TextView
+                style="@style/text_view_style_one"
+                android:text="制作方法"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_recipe_detail_method"
+            android:layout_width="322dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginBottom="@dimen/margin_tiny"
+            android:background="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:padding="@dimen/padding_normal"
+            android:textSize="@dimen/text_size_normal"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_tiny"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="31dp"
+                android:layout_height="@dimen/image_size"
+                android:src="@drawable/ic_recipe_related"/>
+
+            <TextView
+                style="@style/text_view_style_one"
+                android:text="相关菜谱"/>
+        </LinearLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_related_recipes"
+            android:layout_width="match_parent"
+            android:layout_margin="@dimen/margin_small"
+            android:layout_height="match_parent"
+            android:scrollbars="none"/>
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

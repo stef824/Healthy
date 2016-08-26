@@ -1,0 +1,70 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="app_bar_height">180dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+
+    <!-- 通用尺寸 -->
+    <dimen name="margin_tiny">8dp</dimen>
+    <dimen name="margin_small">15dp</dimen>
+    <dimen name="margin_normal">20dp</dimen>
+    <dimen name="margin_large">25dp</dimen>
+    <dimen name="margin_huge">60dp</dimen>
+    <dimen name="padding_tiny">6dp</dimen>
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="padding_normal">12dp</dimen>
+    <dimen name="padding_large">15dp</dimen>
+    <dimen name="padding_huge">20dp</dimen>
+
+    <!--文字尺寸-->
+    <dimen name="text_size_tiny">10sp</dimen>
+    <dimen name="text_size_small">12sp</dimen>
+    <dimen name="text_size_sub_normal">14sp</dimen>
+    <dimen name="text_size_normal">16sp</dimen>
+    <dimen name="text_size_large">18sp</dimen>
+    <dimen name="text_size_huge">20sp</dimen>
+
+    <!-- 引导页尺寸 -->
+    <dimen name="start_btn_height">28dp</dimen>
+    <dimen name="start_btn_width">120dp</dimen>
+
+    <!--悬浮按钮尺寸-->
+    <dimen name="elevator">8dp</dimen>
+    <dimen name="pressed_translation_z">16dp</dimen>
+
+    <!-- 卡片尺寸 -->
+    <dimen name="card_corner_normal">6dp</dimen>
+    <dimen name="card_corner_small">2dp</dimen>
+    <dimen name="card_elevation_normal">12dp</dimen>
+    <dimen name="card_elevation_small">8dp</dimen>
+    <dimen name="card_height_normal">200dp</dimen>
+    <dimen name="card_height_small">150dp</dimen>
+    <dimen name="card_height_tiny">130dp</dimen>
+    <!--轮询指示器尺寸-->
+    <dimen name="indicator_height">48dp</dimen>
+    <!-- 列表头部布局尺寸-->
+    <dimen name="list_head_height">180dp</dimen>
+    <!-- 城市选择页面尺寸 -->
+    <dimen name="province_list_width">100dp</dimen>
+    <dimen name="list_height">60dp</dimen>
+    <dimen name="input_layout_height">150dp</dimen>
+    <!--编辑框尺寸-->
+    <dimen name="edit_text_height">40dp</dimen>
+    <!--列表尾部尺寸-->
+    <dimen name="footer_height">80dp</dimen>
+    <!--医院详情页面尺寸-->
+    <dimen name="image_size">30dp</dimen>
+    <!--路线规划页面尺寸-->
+    <dimen name="radio_size">36dp</dimen>
+    <dimen name="card_elevator">8dp</dimen>
+    <dimen name="card_radius">6dp</dimen>
+    <!--资讯页面尺寸-->
+    <dimen name="news_header_height">200dp</dimen>
+    <!--资讯详情页面尺寸-->
+    <dimen name="news_detail_image_width">350dp</dimen>
+</resources>

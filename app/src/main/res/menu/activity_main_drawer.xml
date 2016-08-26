@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_my_main_page"
+            android:icon="@drawable/ic_nav_home"
+            android:title="我的主页" />
+        <item
+            android:id="@+id/nav_news_collection"
+            android:icon="@drawable/ic_nav_news_collection"
+            android:title="资讯收藏" />
+        <item
+            android:id="@+id/nav_hospital_collection"
+            android:icon="@drawable/ic_nav_hospital_collection"
+            android:title="医院收藏" />
+        <item
+            android:id="@+id/nav_recipe_collection"
+            android:icon="@drawable/ic_nav_recipe_collection"
+            android:title="菜谱收藏" />
+    </group>
+
+    <item android:title="功能">
+        <menu>
+            <item
+                android:id="@+id/nav_setting"
+                android:icon="@drawable/ic_nav_setting"
+                android:title="设置" />
+            <item
+                android:id="@+id/nav_exit"
+                android:icon="@drawable/ic_nav_exit_to_app"
+                android:title="退出" />
+        </menu>
+    </item>
+
+</menu>
