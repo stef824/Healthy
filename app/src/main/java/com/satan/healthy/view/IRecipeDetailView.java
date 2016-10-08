@@ -10,7 +10,7 @@ import java.util.List;
  * Created by Satan on 2016/08/23.
  */
 
-public interface IRecipeDeatailView extends IView {
+public interface IRecipeDetailView extends IView {
     /**
      * 显示菜谱图片
      * @param bitmap 图片
